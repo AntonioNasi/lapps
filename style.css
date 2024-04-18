@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-inicial{
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgb(192, 255, 239), rgb(250, 163, 235));
+}
+
+.section-inicial .header{
+    width: 100%;
+}
+
+.section-inicial .header nav{
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-inicial .header .cx-logo{
+    width: 200px;
+    height: 200px;
+    margin: 30px auto 30px;
+    border-radius: 100%;
+}
+
+.section-inicial .header .cx-logo img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.section-inicial .header .cx-descricao{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.section-inicial .header .cx-descricao h1{
+    font-size: 40px;
+    font-weight:bolder;
+    letter-spacing: -1px;
+}
